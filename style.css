@@ -1,0 +1,230 @@
+header{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 25px;
+		font-weight: normal;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+
+	p{
+		clear: right;
+		margin: 10px;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	@media (min-width: 992px)
+	{
+			#chick{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-left: 15px;
+			width: 30%;
+		}
+
+		#beef{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-left: 30px;
+			width: 30%;
+		}
+
+		#sushi{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-left: 30px;
+			width: 30%;
+		}
+
+		#CHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: pink;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+
+		#bHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: red;
+			color: white;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+
+		#sHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: #ffdb58;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+	}
+
+	@media (max-width: 991px) and (min-width: 768px)
+	{
+		#chick{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-left: 30px;
+			width: 45%;
+		}
+
+		#beef{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-left: 20px;
+			width: 45%;
+		}
+
+		#sushi{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			align-self: center;
+			margin: 15px;
+			margin-right: 40px;
+			margin-left: 30px;
+		}
+
+		#CHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: pink;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+
+		#bHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: red;
+			color: white;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+
+		#sHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: #ffdb58;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+	}
+
+	@media (max-width: 768px)
+	{
+		#chick{
+			float: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-left: 15px;
+			margin-right: 15px;
+
+			clear: left;
+		}
+
+		#beef{
+			float: left;
+			clear: left;
+			border: 2px solid black;
+			background-color: grey;
+			margin-top: 15px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		#sushi{
+			float: left;
+			clear: left;
+			border: 2px solid black;
+			background-color: grey;
+			align-self: center;
+			margin: 15px;
+		}
+
+		#CHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: pink;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+
+		#bHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: red;
+			color: white;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+
+		#sHeading{
+			width: 100px;
+			height:30px;
+			font-size: 25px;
+			font-family: "Times New Roman", Times, serif;
+			float: right;
+			align-content: center;
+			background-color: #ffdb58;
+			padding: 0px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-bottom: 10px;
+		}
+	}
